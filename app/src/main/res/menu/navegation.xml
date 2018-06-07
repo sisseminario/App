@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_inicio"
+        android:icon="@drawable/inicio"
+        android:title="Inicio"/>
+    <item
+        android:id="@+id/nav_mapas"
+        android:icon="@drawable/mapas"
+        android:title="Mapas"/>
+    <item
+        android:id="@+id/nav_contactos"
+        android:icon="@drawable/contactos"
+        android:title="Contactos"/>
+    <item
+        android:id="@+id/nav_favoritos"
+        android:icon="@drawable/favoritos"
+        android:title="Favoritos"/>
+
+</menu>
