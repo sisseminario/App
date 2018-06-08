@@ -42,6 +42,9 @@ public class MainActivity extends AppCompatActivity {
                         case R.id.nav_mapas:
                             selectedFragment =  new MapasFragment();
                             break;
+                        case R.id.nav_perfil:
+                            selectedFragment =  new PerfilFragment();
+                            break;
                     }
                     getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                             selectedFragment).commit();
